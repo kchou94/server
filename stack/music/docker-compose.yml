@@ -3,7 +3,6 @@ services:
   navidrome:
     image: deluan/navidrome:0.49.3
     container_name: navidrome
-    user: 1000:1000 # should be owner of volumes
     networks:
       - homenas
     ports:
